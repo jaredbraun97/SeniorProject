@@ -1,0 +1,118 @@
+.Header {    
+    background-image: linear-gradient(to bottom left, #cccccc, #333 );
+    transition: background-color 0.5, color 0.5;
+    border-bottom: .5px solid #333;
+    box-shadow: 0px 2px 4px #d9d9d9;
+}
+ .Header > div {
+        color: #d9d9d9;           
+    }
+
+body {
+    
+    background-color:  #1a1a1a;
+    transition: background-color 0.5, color 0.5;
+    
+}
+
+.navbar {
+    background-color: #333;
+    border-bottom: .5px solid #d9d9d9;
+    box-shadow: 1px 3px 5px #d9d9d9;
+}
+.navbar div {
+    color: #d9d9d9;
+    background-color: #333;
+}
+.navbar a {
+    color: #d9d9d9;
+    background-color: #333;
+    transition: background 0.4s;
+}
+.navbar a:hover {
+    background-color: #cccccc;
+    color: #333;
+}
+
+.subnav a{
+    color: #d9d9d9;
+    background-color: #333;
+}
+.subnav a{
+    color: #d9d9d9;
+    background-color: #333;
+}
+.arrow {
+    color: #d9d9d9;
+    background-color: #333;
+}
+.arrow:hover {
+    background-color: #cccccc;
+    color: #333;
+    transition: background 0.4s;
+}
+
+.contentBox {
+    color: #d9d9d9;
+    background-color: #1a1a1a;
+}
+.contentBox > h1 {
+     color: #d9d9d9;
+}
+.contentBox > h2 {
+    color: #d9d9d9;
+}
+.contentBox >  h2 > a:link{
+    color: #d9d9d9;
+}
+.contentBox > h2 > a:visited{
+    color: #d9d9d9;
+}
+#theme-toggle {
+   
+    background-color: #d9d9d9;
+    color: #1a1a1a;
+    
+    
+}
+/** This stuf is specific to one page/s*/
+
+.subContBox div{
+    background-color: #414141;
+}
+.subContBox > div:hover {
+    background-color: #cccccc;
+    transition: background 0.4s;
+}
+.content h1 {
+    color: #d9d9d9;
+}
+.line {
+     border-top: .25px solid #d9d9d9;
+}
+ 
+
+.vidCont {
+    background-color: #333;
+}
+.shapes {
+   fill: #d9d9d9;
+}
+.button {
+    text-decoration: none;
+    background-color: #d9d9d9;
+    color: #333;
+    box-shadow: 0px 4px 6px #d9d9d9;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0px 6px 8px #cccccc;
+}
+.contentBox > a {
+    color: #d9d9d9;       
+}
+.contentBox p > a {
+    color: #d9d9d9;
+    }

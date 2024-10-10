@@ -1,0 +1,122 @@
+.Header {    
+    background-image: linear-gradient(to bottom left, #cccccc, #ffffff );
+    border-bottom: .5px solid #333;
+    transition: background-color 0.5, color 0.5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+ .Header > div {
+        color:  #333;           
+    }
+
+body {
+    
+    background-color:  #ffffff;
+    transition: background 0.5, color 0.5;
+    
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: .5px solid #333;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.navbar div {
+    color: #333;
+    background-color: #ffffff;
+}
+.navbar a {
+    color: #333;
+    background-color: #ffffff;
+    
+}
+.navbar a:hover {
+    background-color: #cccccc;
+    transition: background 0.4s;
+}
+
+.subnav  li > a{
+    color: #333;
+    background-color: #ffffff;
+}
+.subnav {
+    
+    background-color: #999999;
+}
+
+.arrow {
+  fill: #333;
+  background-color: #ffffff;  
+}
+.arrow:hover {
+    background-color: #cccccc;
+    fill: #333;
+    transition: background 0.4s;
+}
+.contentBox {
+    background-color: #ffffff;
+}
+.contentBox >  h2 > a:link{
+    color: #333;
+}
+.contentBox > h2 > a:visited{
+    color: #333;
+}
+/** This stuf is specific to one page/s*/
+.subContBox div{
+    background-color: #ffffff;
+    border: 2px solid #333; 
+    border-top: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.content h1 {
+    color: #333;
+}
+.subContBox > div:hover {
+    background-color: #cccccc;
+    transition: background 0.4s;
+}
+.line {
+     border-top: 0.25px solid #333;
+}
+#theme-toggle {
+   
+    background-color: #333;
+    color: #ffffff;
+    
+    
+}
+.shapes {
+    fill: #333;
+}
+.button {
+    text-decoration: none;
+    background-color: #333;
+    color: #d9d9d9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 2);
+}
+
+
+
+.button {
+    background-color: #333;
+    color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contentBox > a {
+    color: #333;       
+}
+.contentBox p > a {
+    color: #333;
+    }
