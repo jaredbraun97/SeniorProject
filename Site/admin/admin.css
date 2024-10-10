@@ -1,0 +1,145 @@
+
+.Header {
+ 
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction: column;
+     align-items: center;
+    
+  background-color: rgb(194, 194, 214);
+    
+    
+}
+    .Header > div {
+        padding-left: 30px;
+        padding-right: 20px;
+        flex: 1 1;
+        font-size: 1.8rem;
+        /*outline text */
+        /*  -webkit-text-stroke: .7px black;*/
+        color: #333;
+                    margin: 0px
+
+    }
+.Header > div > img {
+    
+    max-width: 16vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: height: 100vh;
+    background-color:  #F6E8DE;
+    
+}
+html {
+   
+}
+
+        
+
+/***********************************      Navbar */
+.navbar {
+    position: sticky;
+    top: 0px;
+    
+}
+    .navbar a {
+        color: #d9d9d9;
+        background: #333;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        
+
+        display: flex;
+
+        text-decoration: none;
+        transition: background 0.4s;
+
+    }
+    .navbar a:hover {
+        background-color: #4d4d4d;
+    }
+    .navbar ul {
+        list-style: none;
+        display: flex;
+    }
+    .navbar li {
+        width: 100%;
+        text-align: center;
+        position: relative;
+
+    }
+
+
+    .navbar li:hover .subnav > li {
+        display: block;
+        flex-direction: column;
+        top: 0px;
+
+
+    }
+
+        .subnav li {
+            display: none;
+            position: absolute;
+            top: 0px;
+            position: relative;
+
+        }
+        .subnav li;hover  {
+
+        }
+        .subnav {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 100%;
+        }
+
+        .arrow {
+          margin-left: 8px;
+          color: #eee;
+          font-size: 12px;
+        }
+/***********************************      Navbar */
+/*======================  Content Start =============================================================*/
+.content {
+    min-height: 60vh;
+    margin:10px ;
+    bottom: 100%;
+    
+ 
+}
+.content > article > h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    color: white;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    
+}
+.contentBox > h4 {
+    text-align: center;
+  
+    
+}
+.contentBox {
+    background-color: #F7D7D7;
+    padding: 12px;
+}
+.vidCont > video {
+    max-width: 250px;
+}
+/*======================  Content End =============================================*/
+/*======================== */
+
